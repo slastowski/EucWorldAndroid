@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/auto_log"
+        android:title="@string/auto_log_title"
+        android:summary="@string/auto_log_summary" />
+
+    <CheckBoxPreference
+        android:enabled="false"
+        android:key="@string/auto_upload"
+        android:title="@string/auto_upload_title"
+        android:summary="@string/auto_upload_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/log_location_data"
+        android:title="@string/log_location_data_title"
+        android:summary="@string/log_location_data_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/use_gps"
+        android:dependency="log_location_data"
+        android:title="@string/use_gps_title"
+        android:summary="@string/use_gps_summary" />
+
+</PreferenceScreen>

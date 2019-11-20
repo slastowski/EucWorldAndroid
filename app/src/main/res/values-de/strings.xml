@@ -1,0 +1,401 @@
+<resources>
+    <string name="app_name" translatable="false">EUC World</string>
+
+    <string name="unknown_device">Unbekanntes Gerät</string>
+    <string name="ble_not_supported">Bluetooth LE wird nicht unterstützt</string>
+    <string name="error_bluetooth_not_supported">Bluetooth wird von ihrem Gerät nicht unterstützt.</string>
+    <string name="error_bluetooth_not_initialised">Bluetooth kann nicht initialisiert werden.</string>
+    <string name="bluetooth_required">Bluetooth wird benötigt, konnte aber nicht aktiviert werden.</string>
+    <string name="bluetooth_direct_connect_failed">Direkte Verbindung fehlgeschlagen. Suche Rad …</string>
+    <string name="back_to_exit">Zum Beenden noch einmal auf Zurück drücken</string>
+    <string name="scan">Scan</string>
+    <string name="stop">Stop</string>
+    <string name="connect">Verbindung</string>
+    <string name="connecting">Verbinde</string>
+    <string name="searching">Suche</string>
+    <string name="disconnected">Verbindung unterbrochen</string>
+    <string name="connected">Verbunden</string>
+    <string name="connection_failed">Verbindung fehlgeschlagen</string>
+    <string name="disconnect">Unterbreche Verbindung</string>
+    <string name="connect_to_wheel">Verbinde mit dem Rad</string>
+    <string name="disconnect_from_wheel">Unterbreche Verbindung zum Rad</string>
+    <string name="wheel_disconnected">Verbindung zum Rad unterbrochen</string>
+    <string name="wheel_connecting">Verbinde mit dem Rad …</string>
+    <string name="wheel_searching">Suche Rad …</string>
+    <string name="wheel_connected">Rad verbunden</string>
+    <string name="waiting_for_device">Warte auf das Gerät</string>
+    <string name="start_pebble_service">Starte Pebble Dash</string>
+    <string name="stop_pebble_service">Stop Pebble Dash</string>
+    <string name="start_data_service">Starte Logging</string>
+    <string name="stop_data_service">Stop Logging</string>
+    <string name="start_speech_service">Aktiviere Sprachbenachrichtigungen</string>
+    <string name="stop_speech_service">Deaktiviere Sprachbenachrichtigungen</string>
+    <string name="started_logging">Starte logging auf %1$s</string>
+    <string name="wheel_type_recognized">Radprotokol erkannt %1$s</string>
+    <string name="search_for_wheel">Suche nach Rad</string>
+    <string name="scanning">Suche …</string>
+    <string name="devices">Geräte</string>
+    <string name="mode_learn">Anfänger</string>
+    <string name="mode_play">Experte</string>
+    <string name="mode_ride">Normal</string>
+    <string name="waiting_for_wheel">Warte auf Rad …</string>
+    <string name="speed">Geschwindigkeit</string>
+	<string name="average_speed">Durchschn. Geschwindigkeit</string>
+	<string name="average_riding_speed">Durchschn. Fahrtgeschw.</string>
+    <string name="top_speed">Spitzengeschwindigkeit</string>
+    <string name="battery">Batterie</string>
+    <string name="distance">Distanz</string>
+	<string name="wheel_distance">Distanz Rad</string>
+	<string name="user_distance">Distanz Benutzer</string>
+    <string name="ride_time">Reisezeit</string>
+	<string name="riding_time">Fahrzeit</string>
+    <string name="voltage">Spannung</string>
+    <string name="current">Strom</string>
+    <string name="power">Leistung</string>
+    <string name="temperature">Systemtemp.</string>
+	<string name="temperature2">CPU(?) Temp.</string>
+	<string name="tilt">Neigung</string>
+	<string name="roll">Roll</string>
+    <string name="fan_status">Ventilator Status</string>
+    <string name="mode">Modus</string>
+    <string name="total_distance">Gesamtdistanz</string>
+    <string name="total">Total</string>
+    <string name="name">Name</string>
+    <string name="model">Modell</string>
+    <string name="version">Version</string>
+    <string name="serial_number">Seriennummer</string>
+    <string name="notification_text">%1$d%% • %2$d°C • %3$.1f km</string>
+    <string name="icon_watch">Uhrsymbol</string>
+    <string name="icon_logging">Logging Symbol</string>
+    <string name="icon_connection">Verbindungssymbol</string>
+    <string name="icon_speech">Sprachsymbol</string>
+    <string name="connection_lost_at">Verbindug unterbrochen %1s</string>
+
+    <string name="logging_error_no_storage_permission">Schreiberlaubnis für den externent Speicher fehlt. Logging beendet.</string>
+    <string name="logging_error_storage_unavailable">Kein externer Speicher verfügbar. Logging beendet.</string>
+    <string name="logging_error_no_location_permission">Standortaufzeichnung wurde angefordert aber Standortrechte fehlen. Standorddaten können nicht aufgezeichnet werden.</string>
+    <string name="logging_error_gps_disabled">GPS-Standortaufzeichnung wurde angefordert aber das GPS ist nicht aktiv. Standortbestimmung wird durch das Mobilnetz durchgeführt.</string>
+    <string name="logging_error_network_disabled">Standortaufzeichnung durch Mobilnetz wurde angefordert, diese Methode der Standortbestimmung ist aber deaktiviert. Standorddaten können nicht aufgezeichnet werden.</string>
+    <string name="logging_error_all_location_providers_disabled">Android Standortbestimmung ist  deaktiviert. Standorddaten können nicht aufgezeichnet werden.</string>
+    <string name="raw_distance">Reine Entfernung</string>
+
+	<string name="alarm_text_speed">Geschwindigkeitsalarm ausgelöst</string>
+	<string name="alarm_text_current">Stromalarm ausgelöst</string>
+	<string name="alarm_text_temperature">Temperaturalarm ausgelöst</string>
+
+    <string name="livemap_error_no_location_permission">Live map benötigt Standortberechtigungen.</string>
+    <string name="livemap_error_no_gps_provider">Live map benötigt GPS (deaktiviert).</string>
+    <string name="livemap_offline">Sie sind offline</string>
+    <string name="livemap_gps_wait">Warte auf GPS…</string>
+    <string name="livemap_live">Sie sind jetzt live!</string>
+    <string name="livemap_last_update">Letztes Update %1$s</string>
+
+    // PREFERENCES
+    <string name="general_preferences" translatable="false">speed_preferences</string>
+    <string name="log_preferences" translatable="false">log_preferences</string>
+    <string name="alarm_preferences" translatable="false">alarm_preferences</string>
+    <string name="watch_preferences" translatable="false">watch_preferences</string>
+    <string name="wheel_settings" translatable="false">wheel_settings</string> 
+	<string name="trip_settings" translatable="false">trip_settings</string>
+    <string name="speech_preferences" translatable="false">speech_preferences</string>
+    <string name="speech_messages_preferences" translatable="false">speech_messages_preferences</string>
+    <string name="livemap_preferences" translatable="false">livemap_preferences</string>
+
+    // ALARM PREFERENCES
+    <string name="alarms_enabled" translatable="false">alarms_enabled</string>
+    <string name="disable_phone_vibrate" translatable="false">disable_phone_vibrate</string>
+    <string name="alarm_1_speed" translatable="false">alarm_1_speed</string>
+    <string name="alarm_1_battery" translatable="false">alarm_1_battery</string>
+    <string name="alarm_2_speed" translatable="false">alarm_2_speed</string>
+    <string name="alarm_2_battery" translatable="false">alarm_2_battery</string>
+    <string name="alarm_3_speed" translatable="false">alarm_3_speed</string>
+    <string name="alarm_3_battery" translatable="false">alarm_3_battery</string>
+    <string name="alarm_current" translatable="false">alarm_current</string>
+	<string name="alarm_temperature" translatable="false">alarm_temperature</string>
+	
+    // WHEEL SETTINGS
+    <string name="light_enabled" translatable="false">light_enabled</string>
+    <string name="led_enabled" translatable="false">led_enabled</string>
+    <string name="handle_button_disabled" translatable="false">handle_button_disabled</string>
+    <string name="wheel_max_speed" translatable="false">wheel_max_speed</string>
+    <string name="speaker_volume" translatable="false">speaker_volume</string>
+	<string name="pedals_adjustment" translatable="false">pedals_adjustment</string>
+	<string name="pedals_mode" translatable="false">pedals_mode</string>
+	<string name="light_mode" translatable="false">light_mode</string>
+	<string name="strobe_mode" translatable="false">strobe_mode</string>
+	<string name="led_mode" translatable="false">led_mode</string>
+	<string name="start_calibration" translatable="false">start_calibration</string>
+	<string name="alarm_mode" translatable="false">alarm_mode</string>
+	<string name="gotway_84v" translatable="false">gotway_84v</string>
+    <string name="gotway_voltage" translatable="false">gotway_voltage</string>
+    <string name="no_settings" translatable="false">no_settings</string>
+	
+    // LOG PREFERENCES
+    <string name="auto_log" translatable="false">auto_log</string>
+    <string name="auto_upload" translatable="false">auto_upload</string>
+    <string name="log_location_data" translatable="false">log_location_data</string>
+    <string name="use_gps" translatable="false">use_gps</string>
+
+    // GENERAL PREFERENCES
+    <string name="use_mi" translatable="false">use_mi</string>
+    <string name="use_f" translatable="false">use_f</string>
+    <string name="max_speed" translatable="false">max_speed</string>
+	<string name="use_ratio" translatable="false">use_ratio</string>
+
+    // WATCH PREFERENCES
+    <string name="horn_mode" translatable="false">horn_mode</string>
+
+	// TRIP PREFERENCES
+	<string name="reset_top_speed" translatable="false">reset_top_speed</string>
+	<string name="reset_user_distance" translatable="false">reset_user_distance</string>
+    <string name="last_mac" translatable="false">last_mac</string>
+    <string name="about" translatable="false">about</string>
+
+    // LIVEMAP PREFERENCES
+    <string name="livemap_api_key" translatable="false">livemap_api_key</string>
+    <string name="livemap_update_interval" translatable="false">livemap_update_interval</string>
+    <string name="livemap_publish" translatable="false">livemap_publish</string>
+    <string name="livemap_publication_delay" translatable="false">livemap_publication_delay</string>
+    <string name="livemap_start_new_segment" translatable="false">livemap_start_new_segment</string>
+
+    // SPEECH PREFERENCES
+    <string name="speech_messages" translatable="false">speech_messages</string>
+    <string name="speech_msg_interval" translatable="false">speech_msg_rate</string>
+    <string name="speech_enable" translatable="false">speech_enable</string>
+    <string name="speech_rate" translatable="false">speech_rate</string>
+    <string name="speech_pitch" translatable="false">speech_pitch</string>
+    <string name="speech_only_when_moving" translatable="false">speech_only_when_moving</string>
+    <string name="speech_msg_mode" translatable="false">speech_msg_mode</string>
+    <string name="speech_enable_on_startup" translatable="false">speech_enable_on_startup</string>
+    <string name="speech_messages_speed" translatable="false">speech_messages_speed</string>
+    <string name="speech_messages_avg_speed" translatable="false">speech_messages_avg_speed</string>
+    <string name="speech_messages_distance" translatable="false">speech_messages_distance</string>
+    <string name="speech_messages_battery" translatable="false">speech_messages_battery</string>
+    <string name="speech_messages_phone_battery" translatable="false">speech_messages_phone_battery</string>
+    <string name="speech_messages_voltage" translatable="false">speech_messages_voltage</string>
+    <string name="speech_messages_current" translatable="false">speech_messages_current</string>
+    <string name="speech_messages_power" translatable="false">speech_messages_power</string>
+    <string name="speech_messages_temperature" translatable="false">speech_messages_temperature</string>
+    <string name="speech_messages_time" translatable="false">speech_messages_time</string>
+    <string name="speech_messages_time_from_start" translatable="false">speech_messages_time_from_start</string>
+    <string name="speech_messages_time_in_motion" translatable="false">speech_messages_time_in_motion</string>
+    <string name="speech_messages_battery_low_level" translatable="false">speech_messages_battery_low_level</string>
+    <string name="speech_messages_phone_battery_low_level" translatable="false">speech_messages_phone_battery_low_level</string>
+    <string name="speech_messages_distance_use_location" translatable="false">speech_messages_distance_use_location</string>
+    <string name="speech_messages_weather" translatable="false">speech_messages_weather</string>
+    <string name="livemap_api_connected">Verbunden!</string>
+    <string name="livemap_api_error_general">Genereller Serverfehler, bitte versuchen Sie es später noch einmal.</string>
+    <string name="livemap_api_error_invalid_api_key">Login fehlgeschlagen. Bitte verifizieren Sie Ihren API-Schlüssel.</string>
+    <string name="livemap_api_error_accound_needs_activation">Bitte aktivieren Sie Ihr Konto vor der Benutzung.</string>
+    <string name="livemap_api_error_forbidden">Verbindung zum Server nicht gestattet.</string>
+    <string name="livemap_api_error_unknown">Unbekannter Fehler, bitte versuchen Sie es später noch einmal.</string>
+    <string name="livemap_api_error_no_connection">Verbindung fehlgeschlagen. Bitte verifizieren Sie Ihre Internetverbindung.</string>
+    <string name="livemap_connecting">Verbinde…</string>
+    <string name="speech_messages_weather_title">Wetter</string>
+    <string name="speech_messages_weather_summary">Verfügbar wenn Live Map aktiv ist.</string>
+    <string name="speech_messages_time_in_motion_title">Zeit in Bewegung</string>
+    <string name="speech_messages_time_from_start_title">Zeit seit Start</string>
+    <string name="speech_messages_temperature_title">Temperatur</string>
+    <string name="speech_messages_time_title">Aktuelle Zeit</string>
+    <string name="speech_messages_speed_title">Aktuelle Geschwindigkeit</string>
+    <string name="speech_messages_avg_speed_title">Mittlere Geschwindigkeit</string>
+    <string name="speech_messages_distance_title">Distanz</string>
+    <string name="speech_messages_battery_title">Batterie</string>
+    <string name="speech_messages_phone_battery_title">Telefonbatterie</string>
+    <string name="speech_messages_voltage_title">Spannung</string>
+    <string name="speech_messages_current_title">Strom</string>
+    <string name="speech_messages_power_title">Leistung</string>
+    <string name="speech_messages_warning_messages_title">Warnungen</string>
+    <string name="speech_messages_battery_low_level_title">Batterie schwach</string>
+    <string name="speech_messages_phone_battery_low_level_title">Telefonbatterie schwach</string>
+    <string name="speech_enable_on_startup_title">Sprachbenachrichtigungen beim Appstart aktivieren</string>
+    <string name="speech_rate_title">Sprachgeschwindigkeit</string>
+    <string name="speech_pitch_title">Stimmhöhe</string>
+    <string name="speech_only_when_moving_title">Sprachausgabe pausieren wenn nicht in Bewegung</string>
+    <string name="speech_only_when_moving_summary">Alarme und Warnungen immer aktiv</string>
+    <string name="speech_msg_mode_title">Auslöser</string>
+    <string name="speech_msg_interval_title">Intervall</string>
+    <string name="speech_messages_preferences_title">Auswahl der Sprachnachrichten</string>
+    <string name="last_mac_title">MAC adresse ändern</string>
+    <string name="about_title">Über EUC World</string>
+    <string name="reset_user_distance_title">Benutzerentfernung zurücksetzen</string>
+    <string name="reset_top_speed_title">Spitzengeschwindigkeit zurücksetzen</string>
+    <string name="wheel_settings_title">Radeinstellungen</string>
+    <string name="watch_preferences_title">Uhreinstellungen</string>
+    <string name="speech_preferences_title">Spracheinstellungen</string>
+    <string name="livemap_preferences_title">Livemap-Einstellungen</string>
+    <string name="alarm_preferences_title">Alarmeinstellungen</string>
+    <string name="log_preferences_title">Logeinstellungen</string>
+    <string name="general_preferences_title">Globale Einstellungen</string>
+    <string name="alarms_enabled_title">Alarme aktivieren</string>
+    <string name="alarms_enabled_summary">Das Telefon darf vibrieren oder Alarmmitteilungen ausgeben.</string>
+    <string name="disable_phone_vibrate_title">Telefonvibration deaktivieren</string>
+    <string name="disable_phone_vibrate_summary">Telefon vibriert nicht sondern gibt Alarm an Pebble-Watch weiter.</string>
+    <string name="speed_alarm_1_title">Geschwindigkeitsalarm - höchste Priorität</string>
+    <string name="alarm_1_speed_title">Geschwindigkeit</string>
+    <string name="alarm_1_speed_summary">Geschwindigkeit die den Alarm auslöst</string>
+    <string name="alarm_1_battery_title">Batterieladung Prozent</string>
+    <string name="alarm_1_battery_summary">Alarm aktivieren wenn die Batterie auf oder unter diesem Wert</string>
+    <string name="speed_alarm_2_title">Geschwindigkeitsalarm - mittlere Priorität</string>
+    <string name="alarm_2_speed_title">Geschwindigkeit</string>
+    <string name="alarm_2_speed_summary">Geschwindigkeit die den Alarm auslöst</string>
+    <string name="alarm_2_battery_title">Batterieladung Prozent</string>
+    <string name="alarm_2_battery_summary">Alarm aktivieren wenn die Batterie auf oder unter diesem Wert</string>
+    <string name="speed_alarm_3_title">Geschwindigkeitsalarm - niedrigste Priorität</string>
+    <string name="alarm_3_speed_title">Geschwindigkeit</string>
+    <string name="alarm_3_speed_summary">Geschwindigkeit die den Alarm auslöst</string>
+    <string name="alarm_3_battery_title">Batterieladung Prozent</string>
+    <string name="alarm_3_battery_summary">Alarm aktivieren wenn die Batterie auf oder unter diesem Wert</string>
+    <string name="current_alarm_title">Stromalarm</string>
+    <string name="alarm_current_title">Strom</string>
+    <string name="alarm_current_summary">Stromstärke die den Alarm auslöst</string>
+    <string name="temperature_alarm_title">Temperaturalarm</string>
+    <string name="alarm_temperature_title">Temperatur</string>
+    <string name="alarm_temperature_summary">Temperature die den Alarm auslöst</string>
+    <string name="use_mi_title">Geschwindigkeit und Entfernung in Meilen</string>
+    <string name="use_mi_summary">Zeige Geschwindigkeit und Entfernung in Meilen anstatt Kilometer</string>
+    <string name="use_f_title">Temperatur in Grad Fahrenheit</string>
+    <string name="use_f_summary">Zeige Temperatur in Grad Fahrenheit statt Celsius</string>
+    <string name="max_speed_title">Max. Geschwindigkeit</string>
+    <string name="max_speed_summary">Max. angezeigte Geschwindigkeit (Tachometer)</string>
+    <string name="light_mode_title">Helligkeitsmodus</string>
+    <string name="alarm_mode_title">Alarmmodus</string>
+    <string name="alarm_mode_summary">Alarmeinstellungen</string>
+    <string name="pedals_mode_title">Pedaleinstellungen</string>
+    <string name="pedals_mode_summary">Sanft/Mittel/Hard</string>
+    <string name="wheel_max_speed_title">Rad Geschwindigkeitsbegrenzung</string>
+    <string name="wheel_max_speed_summary">Tiltback Geschwindigkeit, 0=deaktiviert</string>
+    <string name="start_calibration_title">Kalibrierung</string>
+    <string name="use_ratio_title">Mein Rad ist ein Gotway MCM</string>
+    <string name="use_ratio_summary">Sollter Ihr Gotway MCM falsche Geschwindigkeit, Distanz etc. angeben, benutzen Sie diese Option</string>
+    <string name="gotway_voltage_title">Batteriespannung</string>
+    <string name="gotway_voltage_summary">67V/84V/100V</string>
+    <string name="light_enabled_title">Licht an</string>
+    <string name="light_enabled_summary">Frontlicht an</string>
+    <string name="led_enabled_title">Radbeleuchtung an</string>
+    <string name="led_enabled_summary">Seiten-LEDs an</string>
+    <string name="handle_button_disabled_title">Griffknopf deaktivieren</string>
+    <string name="handle_button_disabled_summary">Das bleibt wenn der Griffknopf betätigt wird</string>
+    <string name="wheel_max_speed_summary_inmotion">Tiltback Geschwindigkeit</string>
+    <string name="speaker_volume_title">Lautsprechervolumen</string>
+    <string name="speaker_volume_summary">Andert die Lautstärke des eingebauten Lautsprechers</string>
+    <string name="pedals_adjustment_title">Pedale</string>
+    <string name="pedals_adjustment_summary">Horizontale Justierung</string>
+    <string name="light_mode_summary">An/Aus/Auto</string>
+    <string name="strobe_mode_title">Stroboskop-Modus</string>
+    <string name="strobe_mode_summary">An/Aus</string>
+    <string name="led_mode_title">Led-Modus</string>
+    <string name="led_mode_summary">An/Aus</string>
+    <string name="wheel_max_speed_summary_kingsong">Tiltback Geschwindigkeit</string>
+    <string name="livemap_api_key_title">API-Schlüssel</string>
+    <string name="livemap_api_key_summary">Geben Sie Ihren API-Schlüssel zur Aktivierung der Livemap ein</string>
+    <string name="livemap_update_interval_title">Updateintervall</string>
+    <string name="livemap_update_interval_summary">Stellt ein wie oft Standort und Raddaten zur Livemap gesendet werden</string>
+    <string name="livemap_start_new_segment_title">Startet ein neues Segment anstatt einer neuen Fahrt</string>
+    <string name="livemap_start_new_segment_summary">Auswählen wenn Sie keine neue Fahrt beginnen sondern die aktuelle Fahrt fortsetzen wollen</string>
+    <string name="livemap_publish_title">Sichtbarkeit der Fahrt</string>
+    <string name="livemap_publish_summary">Legt fest wer die Fahrt sehen kann</string>
+    <string name="livemap_publication_delay_title">Verzögerung der Veröffentlichung</string>
+    <string name="livemap_publication_delay_summary">Die Veröffentlichung der Livedaten kann sofort erfolen oder von 5 Minuten bis 24 Stunden verzögert werden.</string>
+    <string name="auto_log_title">Auto Log</string>
+    <string name="auto_log_summary">Logging nach Verbindung zum Rad automatisch beginnen</string>
+    <string name="auto_upload_title">Logs automatisch hochladen</string>
+    <string name="auto_upload_summary">Logs automatisch auf euc.world hochladen</string>
+    <string name="log_location_data_title">Standortlogs</string>
+    <string name="log_location_data_summary">Standort loggen</string>
+    <string name="use_gps_title">GPS zur Ortsbestimmung</string>
+    <string name="use_gps_summary">Benutzt das GPS und nicht das Mobilnetz zur Ortsbestimmung. Diese Methode ist genauer aber verbraucht mehre Energie</string>
+    <string name="no_settings_title">Radeinstellungen sind für Ninebot Z noch nicht verfügbar</string>
+    <string name="reset_top_speed_title_2">Spitzengeschwindigkeit zurücksetzen</string>
+    <string name="reset_user_distance_title_2">Benutzerdistanz zurücksetzen</string>
+    <string name="horn_mode_title">Hornmodus</string>
+    <string name="horn_mode_summary">Wird ausgeführt wenn der Auswahl-Knopf der Pebble-Watch gedrückt wird</string>
+    <string name="speech_text_welcome_on_board">Willkommen an Bord!</string>
+    <string name="speech_text_speed">Geschwindigkeit: %s.</string>
+    <string name="speech_text_avg_speed">Mitt. Geschwindigkeit: %s.</string>
+    <string name="speech_text_distance">Distanz: %s.</string>
+    <string name="speech_text_battery">Batterie: %.0f%%.</string>
+    <string name="speech_phone_battery">Telefonbatterie: %d%%.</string>
+    <string name="speech_text_voltage">Spannung: %.1f V</string>
+    <string name="speech_text_current">Strom: %.0f A</string>
+    <string name="speech_text_power">Leistung: %.0f W</string>
+    <string name="speech_text_temperature">Temperatur: %s.</string>
+    <string name="speech_text_time">Zeit %s.</string>
+    <string name="speech_text_time_from_start">%s nach dem Start.</string>
+    <string name="speech_text_time_in_motion">%s in Bewegung.</string>
+    <string name="speech_text_weather">Wetter.</string>
+    <string name="speech_text_weather_temp">Temperatur: %s.</string>
+    <string name="speech_text_weather_temp_feels">Temperatur: %s, gefühlt wie %s.</string>
+    <string name="speech_text_low_battery">Niedrige Batterie!</string>
+    <string name="speech_text_low_phone_battery">Niedrige Telefonbatterie!</string>
+    <string name="speech_text_connected">Verbunden.</string>
+    <string name="speech_text_connection_lost">Verbindung unterbrochen.</string>
+    <string name="speech_text_current_too_high">Strom zu hoch!</string>
+    <string name="speech_text_temp_too_high">Strom zu hoch!</string>
+    <string name="speech_text_slow_down_3">Langsamer!</string>
+    <string name="speech_text_slow_down_2">Langsamer!</string>
+    <string name="speech_text_slow_down_1">Langsamer!</string>
+    <string name="about_eucworld_title">Über EUC World</string>
+    <string name="about_text"><![CDATA[Version %s produziert %s<br>von Sebastian Łastowski <a href=\"sebastian@euc.world\">sebastian@euc.world</a><br><br><small>Hey, möchtest Du das Lifemap-Feature benutzen? Weitere Information und Registrierung hier: <a href=\"https://euc.world\">https://euc.world</a></small>]]></string>
+    <string name="mac_edit_type">MAC bearbeiten</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="wheel_password">Rad Passwort ( nur InMotion )</string>
+    <string name="speed_settings">Geschwindigkeitseinstellungen</string>
+    <string name="enable_auto_upload_title">Autom. Hochladen aktivieren?</string>
+    <string name="enable_auto_upload_text">Autom. Hochladen ohne WiFi benutzt mobile Daten. Das kann zusätzliche Kosten verursachen.</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="link_livemap_subject">Link zu meiner Tourenkarte</string>
+    <string name="share_livemap">Fahrt teilen</string>
+    <string name="notification_livemap_title">Livemap</string>
+    <string name="fan_off">Aus</string>
+    <string name="fan_on">An</string>
+    <string name="duration_fmt_min">%d min</string>
+    <string name="duration_fmt_hr">%d h</string>
+    <string name="duration_fmt_hr_and_min">%d h and %d min</string>
+    <string name="show_when_locked" translatable="false">show_when_locked</string>
+    <string name="show_when_locked_title">Anzeigen wenn gesperrt</string>
+    <string name="show_when_locked_summary">Hauptscreen zeigen auch wenn Anzeige gesperrt ist.</string>
+    <string name="livemap_api_error_server">Vorübergehender Serverfehler. Bitte später noch einmal versuchen.</string>
+    <string name="livemap_image_preparation_error">Fehler beim Bearbeiten des Bildes für den Upload</string>
+    <string name="livemap_image_upload_error">Fehler beim Bild hochladen</string>
+    <string name="livemap_image_uploaded">Bild hochgeladen!</string>
+    <string name="livemap_image_uploading">Lade Bild hoch…</string>
+    <string name="livemap_auto_start" translatable="false">livemap_auto_start</string>
+    <string name="livemap_auto_start_title">Start wenn das Rad verbunden ist</string>
+    <string name="livemap_auto_start_summary">Auswählen wenn sie nach der Verbindung mit dem Rad die Fahrt im  \"Link only\"-Modus starten wollen</string>
+    <string name="livemap_auto_finish" translatable="false">livemap_auto_finish</string>
+    <string name="livemap_auto_finish_title">Beenden wenn Verbindung mit dem Rad verloren</string>
+    <string name="livemap_auto_finish_summary">Auswählen wenn die Tour nach Verbindungsverlust automatisch beendet werden soll</string>
+    <string name="livemap_auto_finish_delay" translatable="false">livemap_auto_finish_delay</string>
+    <string name="livemap_auto_finish_delay_title">Verzögerung vor dem Beenden</string>
+    <string name="livemap_auto_finish_delay_summary">Definiert den Zeitintervall nach dem die Tour beendet wird.</string>
+    <string name="livemap_disconnecting">Verbindugn beenden…</string>
+    <string name="livemap_speech_tour_started">Logging hat begonnen…</string>
+    <string name="livemap_speech_tour_finished">Tour logging beendet.</string>
+    <string name="livemap_speech_gps_signal_regained">GPS signal wiederhergestellt.</string>
+    <string name="livemap_speech_gps_signal_lost">GPS signal verloren.</string>
+    <string name="speech_gps_bt_status" translatable="false">speech_gps_bt_status</string>
+    <string name="speech_gps_bt_status_title"><![CDATA[GPS & BT Benachrichtigungen]]></string>
+    <string name="speech_text_disconnected">Verbindung unterbrochen.</string>
+
+    <string name="update_available">Ein Update zu Version %s ist verfügbar</string>
+    <string name="update_available_download">Herunterladen</string>
+
+    <string name="about_version">Version</string>
+    <string name="speed_correction" translatable="false">speed_correction</string>
+    <string name="speed_correction_title">Geschwindigkeitskorrektur</string>
+    <string name="dist_correction" translatable="false">dist_correction</string>
+    <string name="dist_correction_title">Entfernungskorrektur</string>
+    <string name="speech_use_a2dp_only" translatable="false">speech_use_a2dp_only</string>
+    <string name="speech_use_a2dp_only_title">Sprachnachrichten nur über BT</string>
+
+    <string name="dont_reset_data" translatable="false">dont_reset_data</string>
+    <string name="dont_reset_data_title">Raddaten nicht zurücksetzen</string>
+    <string name="dont_reset_data_summary">Auswählen wenn die Raddaten nach einer manuellen Wiederverbindung nicht zurückgesetzt werden sollen</string>
+    <string name="speech_focus" translatable="false">speech_focus</string>
+    <string name="speech_focus_title">Fokus</string>
+    <string name="altitude">Höhe</string>
+    <string name="bearing">Peilung</string>
+
+</resources>

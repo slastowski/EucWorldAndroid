@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/page_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <net.lastowski.common.view.DashboardGauge
+        android:id="@+id/gauge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:infoMarginTopPortrait="-15"
+
+        app:textBattTempX="15"
+        app:textBattTempY="82"
+
+        app:textDistanceHeight="7"
+        app:textDistanceY="31"
+
+        app:textSpeedHeight="27"
+        app:textSpeedY="55"
+
+        app:textSpeedUnitHeight="5"
+        app:textSpeedUnitY="61"
+
+        app:iconsY="69"
+        app:iconsBatteryX="36"
+        app:iconsBatteryY="64"
+        app:iconsHeight="12"
+
+        app:textTitleHeight="16"
+        app:textValueHeight="32"
+
+        app:tickSpeedMargin="3" />
+</LinearLayout>

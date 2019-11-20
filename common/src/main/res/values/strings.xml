@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">common</string>
+    <string name="capability_watch" translatable="false">eucworld_watch</string>
+    <string name="capability_phone" translatable="false">eucworld_phone</string>
+</resources>

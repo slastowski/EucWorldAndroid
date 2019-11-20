@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_time"
+		android:title="@string/speech_messages_time_title" />
+
+    <CheckBoxPreference
+        android:key="@string/speech_messages_speed"
+		android:defaultValue="true"
+        android:title="@string/speech_messages_speed_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_avg_speed"
+		android:title="@string/speech_messages_avg_speed_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_avg_riding_speed"
+		android:title="@string/speech_messages_avg_riding_speed_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_top_speed"
+		android:title="@string/speech_messages_top_speed_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_distance"
+		android:defaultValue="true"
+		android:title="@string/speech_messages_distance_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_battery"
+		android:defaultValue="true"
+		android:title="@string/speech_messages_battery_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_phone_battery"
+		android:defaultValue="true"
+		android:title="@string/speech_messages_phone_battery_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_voltage"
+		android:title="@string/speech_messages_voltage_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_current"
+		android:title="@string/speech_messages_current_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_power"
+		android:title="@string/speech_messages_power_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_temperature"
+		android:title="@string/speech_messages_temperature_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_time_from_start"
+		android:defaultValue="true"
+		android:title="@string/speech_messages_time_from_start_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_time_in_motion"
+		android:title="@string/speech_messages_time_in_motion_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_messages_weather"
+		android:summary="@string/speech_messages_weather_summary"
+		android:title="@string/speech_messages_weather_title" />
+
+	<PreferenceCategory
+		android:title="@string/speech_messages_warning_messages_title">
+
+		<com.pavelsikun.seekbarpreference.SeekBarPreference
+			android:key="@string/speech_messages_battery_low_level"
+			android:title="@string/speech_messages_battery_low_level_title"
+			android:enabled="true"
+			android:defaultValue="20"
+			sample:msbp_minValue="0"
+			sample:msbp_maxValue="100"
+			sample:msbp_interval="1"
+			sample:msbp_measurementUnit="%"
+			sample:msbp_dialogEnabled="true"/>
+
+		<com.pavelsikun.seekbarpreference.SeekBarPreference
+			android:key="@string/speech_messages_phone_battery_low_level"
+			android:title="@string/speech_messages_phone_battery_low_level_title"
+			android:enabled="true"
+			android:defaultValue="20"
+			sample:msbp_minValue="0"
+			sample:msbp_maxValue="100"
+			sample:msbp_interval="1"
+			sample:msbp_measurementUnit="%"
+			sample:msbp_dialogEnabled="true"/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

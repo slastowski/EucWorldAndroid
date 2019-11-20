@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ListPreference
+		android:defaultValue="0"
+		android:entries="@array/livemap_publish"
+		android:entryValues="@array/livemap_publish_values"
+		android:key="@string/livemap_publish"
+		android:summary="@string/livemap_publish_summary"
+		android:title="@string/livemap_publish_title" />
+
+	<CheckBoxPreference
+		android:key="@string/livemap_auto_start"
+		android:title="@string/livemap_auto_start_title"
+		android:summary="@string/livemap_auto_start_summary" />
+
+	<CheckBoxPreference
+		android:key="@string/livemap_auto_finish"
+		android:title="@string/livemap_auto_finish_title"
+		android:summary="@string/livemap_auto_finish_summary" />
+
+    <ListPreference
+        android:key="@string/livemap_auto_finish_delay"
+        android:title="@string/livemap_auto_finish_delay_title"
+        android:summary="@string/livemap_auto_finish_delay_summary"
+		android:dependency="@string/livemap_auto_finish"
+        android:defaultValue="180"
+        android:entries="@array/livemap_auto_finish_delay"
+        android:entryValues="@array/livemap_auto_finish_delay_values" />
+
+</PreferenceScreen>

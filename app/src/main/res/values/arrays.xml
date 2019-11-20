@@ -1,0 +1,250 @@
+<resources>
+
+    <string-array name="horn_mode">
+        <item>@string/horn_mode_0</item>
+        <item>@string/horn_mode_1</item>
+        <item>@string/horn_mode_2</item>
+    </string-array>
+
+    <string-array name="horn_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+	<string-array name="pedals_mode">
+        <item>@string/pedals_mode_0</item>
+        <item>@string/pedals_mode_1</item>
+        <item>@string/pedals_mode_2</item>
+    </string-array>
+	
+	<string-array name="pedals_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+	
+	<string-array name="light_mode_ks">
+        <item>@string/light_mode_ks_0</item>
+        <item>@string/light_mode_ks_1</item>
+        <item>@string/light_mode_ks_2</item>
+    </string-array>
+	
+	
+	<string-array name="light_mode_gw">
+        <item>@string/light_mode_gw_0</item>
+        <item>@string/light_mode_gw_1</item>
+        <item>@string/light_mode_gw_2</item>
+    </string-array>
+	
+	<string-array name="alarm_mode_gw">
+        <item>@string/alarm_mode_gw_0</item>
+        <item>@string/alarm_mode_gw_1</item>
+        <item>@string/alarm_mode_gw_2</item>
+    </string-array>
+	
+	<string-array name="alarm_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>	
+	
+	<string-array name="light_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>	
+	
+	<string-array name="strobe_mode_ks">
+        <item>@string/strobe_mode_ks_0</item>
+        <item>@string/strobe_mode_ks_1</item>
+    </string-array>
+	
+	<string-array name="strobe_mode_values">
+        <item>0</item>
+        <item>1</item>        
+    </string-array>	
+	
+	<string-array name="led_mode">
+        <item>@string/led_mode_0</item>
+        <item>@string/led_mode_1</item>
+    </string-array>
+	
+	<string-array name="led_mode_values">
+        <item>1</item>
+        <item>0</item>        
+    </string-array>
+
+    <string-array name="gotway_voltage">
+        <item>@string/gotway_voltage_0</item>
+        <item>@string/gotway_voltage_1</item>
+        <item>@string/gotway_voltage_2</item>
+    </string-array>
+
+    <string-array name="gotway_voltage_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="speech_pitch">
+        <item>@string/speech_pitch_0</item>
+        <item>@string/speech_pitch_1</item>
+        <item>@string/speech_pitch_2</item>
+    </string-array>
+
+    <string-array name="speech_pitch_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="speech_rate">
+        <item>@string/speech_rate_0</item>
+        <item>@string/speech_rate_1</item>
+        <item>@string/speech_rate_2</item>
+    </string-array>
+
+    <string-array name="speech_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="speech_mode">
+        <item>@string/speech_mode_0</item>
+        <item>@string/speech_mode_1</item>
+    </string-array>
+
+    <string-array name="speech_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="livemap_publish">
+        <item>@string/livemap_publish_0</item>
+        <item>@string/livemap_publish_1</item>
+        <item>@string/livemap_publish_2</item>
+    </string-array>
+
+    <string-array name="livemap_publish_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="speech_focus">
+        <item>@string/speech_focus_0</item>
+        <item>@string/speech_focus_1</item>
+        <item>@string/speech_focus_2</item>
+    </string-array>
+
+    <string-array name="speech_focus_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="speech_interval">
+        <item>@string/speech_interval_60</item>
+        <item>@string/speech_interval_120</item>
+        <item>@string/speech_interval_180</item>
+        <item>@string/speech_interval_240</item>
+        <item>@string/speech_interval_300</item>
+        <item>@string/speech_interval_360</item>
+        <item>@string/speech_interval_420</item>
+        <item>@string/speech_interval_480</item>
+        <item>@string/speech_interval_540</item>
+        <item>@string/speech_interval_600</item>
+        <item>@string/speech_interval_900</item>
+        <item>@string/speech_interval_1800</item>
+        <item>@string/speech_interval_3600</item>
+    </string-array>
+
+    <string-array name="speech_interval_values">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+
+    <string-array name="livemap_auto_finish_delay">
+        <item>@string/livemap_auto_finish_delay_0</item>
+        <item>@string/livemap_auto_finish_delay_60</item>
+        <item>@string/livemap_auto_finish_delay_120</item>
+        <item>@string/livemap_auto_finish_delay_180</item>
+        <item>@string/livemap_auto_finish_delay_300</item>
+        <item>@string/livemap_auto_finish_delay_600</item>
+        <item>@string/livemap_auto_finish_delay_900</item>
+    </string-array>
+
+    <string-array name="livemap_auto_finish_delay_values">
+        <item>0</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+    </string-array>
+
+    <string-array name="action">
+        <item>@string/action_0</item>
+        <item>@string/action_1</item>
+        <item>@string/action_2</item>
+        <item>@string/action_3</item>
+        <item>@string/action_4</item>
+    </string-array>
+
+    <string-array name="action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="lang">
+        <item>@string/lang_default</item>
+        <item>@string/lang_bg</item>
+        <item>@string/lang_ca</item>
+        <item>@string/lang_cs</item>
+        <item>@string/lang_de</item>
+        <item>@string/lang_el</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_es</item>
+        <item>@string/lang_fr</item>
+        <item>@string/lang_it</item>
+        <item>@string/lang_nl</item>
+        <item>@string/lang_pl</item>
+        <item>@string/lang_pt_rBR</item>
+        <item>@string/lang_ru</item>
+    </string-array>
+
+    <string-array name="lang_values">
+        <item>default</item>
+        <item>bg</item>
+        <item>ca</item>
+        <item>cs</item>
+        <item>de</item>
+        <item>el</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>pt-rBR</item>
+        <item>ru</item>
+    </string-array>
+
+</resources>

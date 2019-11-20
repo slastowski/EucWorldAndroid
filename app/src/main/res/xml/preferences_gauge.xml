@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="@string/max_speed"
+        android:title="@string/max_speed_title"
+        android:summary="@string/max_speed_summary"
+        android:enabled="true"
+        android:defaultValue="40"
+        app:msbp_minValue="10"
+        app:msbp_maxValue="80"
+        app:msbp_interval="1"
+        app:msbp_type="speed"
+        app:msbp_measurementUnit="km/h"
+        app:msbp_measurementUnitImperial="mph"
+        app:msbp_dialogEnabled="true" />
+
+    <ListPreference
+        android:key="@string/gauge_action_single"
+        android:title="@string/action_single_tap_title"
+        android:defaultValue="0"
+        android:entries="@array/action"
+        android:entryValues="@array/action_values" />
+
+    <ListPreference
+        android:key="@string/gauge_action_double"
+        android:title="@string/action_double_tap_title"
+        android:defaultValue="0"
+        android:entries="@array/action"
+        android:entryValues="@array/action_values" />
+
+    <ListPreference
+        android:key="@string/gauge_action_hold"
+        android:title="@string/action_hold_tap_title"
+        android:defaultValue="0"
+        android:entries="@array/action"
+        android:entryValues="@array/action_values" />
+
+    <ListPreference
+        android:key="@string/gauge_horn_mode"
+        android:title="@string/horn_mode_title"
+        android:defaultValue="0"
+        android:entries="@array/horn_mode"
+        android:entryValues="@array/horn_mode_values" />
+
+    <CheckBoxPreference
+        android:key="@string/gauge_use_custom_horn_sound"
+        android:title="@string/use_custom_horn_sound_title"
+        android:summary="@string/use_custom_horn_sound_summary" />
+
+    <Preference
+        android:dependency="gauge_use_custom_horn_sound"
+        android:key="@string/gauge_custom_horn_sound"
+        android:title="@string/horn_custom_sound_title" />
+
+</PreferenceScreen>

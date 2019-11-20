@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="@string/general_preferences"
+        android:title="@string/general_preferences_title"
+        android:icon="@drawable/ic_config_24px"/>
+
+    <Preference
+        android:key="@string/gauge_preferences"
+        android:title="@string/gauge_preferences_title"
+        android:icon="@drawable/ic_gauge_24px"/>
+
+    <Preference
+        android:key="@string/log_preferences"
+        android:title="@string/log_preferences_title"
+        android:icon="@drawable/ic_csv_24px"/>
+
+    <Preference
+        android:key="@string/alarm_preferences"
+        android:title="@string/alarm_preferences_title"
+        android:icon="@drawable/ic_vibration_24px"/>
+
+    <Preference
+        android:key="@string/livemap_preferences"
+        android:title="@string/livemap_preferences_title"
+        android:icon="@drawable/ic_route_24px"/>
+
+    <Preference
+        android:key="@string/speech_preferences"
+        android:title="@string/speech_preferences_title"
+        android:icon="@drawable/ic_speech_24px"/>
+
+    <Preference
+        android:key="@string/watch_preferences"
+        android:title="@string/watch_preferences_title"
+        android:icon="@drawable/ic_watch_24px" />
+
+    <Preference
+        android:key="@string/flic_preferences"
+        android:title="@string/flic_preferences_title"
+        android:icon="@drawable/ic_flic_24px" />
+
+    <Preference
+        android:key="@string/wheel_settings"
+		android:enabled="false"
+        android:title="@string/wheel_settings_title"
+        android:icon="@drawable/ic_wheel_24px" />
+
+    <Preference
+        android:key="@string/sign_in_out"
+        android:title="@string/sign_in_title" />
+
+    <Preference
+        android:enabled="false"
+        android:key="@string/sign_up"
+        android:title="@string/sign_up_title" />
+
+    <Preference
+        android:key="@string/about"
+        android:enabled="true"
+        android:title="@string/about_title" />
+</PreferenceScreen>

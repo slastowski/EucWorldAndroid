@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:key="@string/light_enabled"
+        android:title="@string/light_enabled_title"
+        android:summary="@string/light_enabled_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/led_enabled"
+        android:title="@string/led_enabled_title"
+        android:summary="@string/led_enabled_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/handle_button_disabled"
+        android:title="@string/handle_button_disabled_title"
+        android:summary="@string/handle_button_disabled_summary" />
+
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="@string/wheel_max_speed"
+        android:title="@string/wheel_max_speed_title"
+        android:summary="@string/wheel_max_speed_summary_inmotion"
+        android:defaultValue="25"
+        sample:msbp_minValue="3"
+        sample:msbp_maxValue="45"
+        sample:msbp_interval="1"
+        sample:msbp_type="speed"
+        sample:msbp_measurementUnit="km/h"
+        sample:msbp_measurementUnitImperial="mph"
+        sample:msbp_dialogEnabled="true"/>
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="@string/speaker_volume"
+        android:title="@string/speaker_volume_title"
+        android:summary="@string/speaker_volume_summary"
+        android:defaultValue="50"
+        sample:msbp_minValue="0"
+        sample:msbp_maxValue="100"
+        sample:msbp_interval="1"
+        sample:msbp_measurementUnit="%"
+        sample:msbp_dialogEnabled="true"/>
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="@string/pedals_adjustment"
+        android:title="@string/pedals_adjustment_title"
+        android:summary="@string/pedals_adjustment_summary"
+        android:defaultValue="0"
+        sample:msbp_minValue="-80"
+        sample:msbp_maxValue="80"
+        sample:msbp_interval="1"
+        sample:msbp_measurementUnit="x 0.1°"
+        sample:msbp_dialogEnabled="true"/>
+		
+</PreferenceScreen>

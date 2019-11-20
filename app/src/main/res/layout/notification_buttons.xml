@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ib_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/ib_logging"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_circle_24px"
+        android:contentDescription="@string/icon_connection" />
+
+    <ImageButton
+        android:id="@+id/ib_logging"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_toStartOf="@id/ib_watch"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_csv_24px"
+        android:contentDescription="@string/icon_logging" />
+
+    <ImageButton
+        android:id="@+id/ib_watch"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_toStartOf="@id/ib_speech"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_watch_24px"
+        android:contentDescription="@string/icon_watch" />
+
+    <ImageButton
+        android:id="@+id/ib_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/icon_speech"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_toStartOf="@id/ib_livemap"
+        android:src="@drawable/ic_speech_24px" />
+
+    <ImageButton
+        android:id="@+id/ib_livemap"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/icon_livemap"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:src="@drawable/ic_route_24px" />
+
+</RelativeLayout>

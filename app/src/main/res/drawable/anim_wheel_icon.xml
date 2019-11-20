@@ -1,0 +1,5 @@
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_circle_active_24px" android:duration="500" />
+    <item android:drawable="@drawable/ic_wheel_active_24px" android:duration="500" />
+</animation-list>

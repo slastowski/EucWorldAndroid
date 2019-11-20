@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AbstractView">
+        <attr name="warningColor" format="color" />
+        <attr name="alarmColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="DashboardGauge" parent="AbstractView">
+        <attr name="gaugeBackgroundColor" format="color" />
+        <attr name="gaugeSpeedColor" format="color" />
+        <attr name="gaugeBatteryColor" format="color" />
+        <attr name="gaugeLoadColor" format="color" />
+        <attr name="gaugeLoadRegenColor" format="color" />
+        <attr name="gaugeTemperatureColor" format="color" />
+        <attr name="textInactiveColor" format="color" />
+        <attr name="textDistanceColor" format="color" />
+        <attr name="textTitleColor" format="color" />
+        <attr name="textValueColor" format="color" />
+        <attr name="textSpeedColor" format="color" />
+        <attr name="textSpeedUnitColor" format="color" />
+        <attr name="textBattTempColor" format="color" />
+        <attr name="tickColor" format="color" />
+        <attr name="subtickColor" format="color" />
+        <attr name="tapActionNegativeColor" format="color" />
+        <attr name="tapActionPositiveColor" format="color" />
+        <attr name="tapActionNegativeBackgroundColor" format="color" />
+        <attr name="tapActionPositiveBackgroundColor" format="color" />
+
+        <attr name="gaugeSpeedAngle" format="float" />
+        <attr name="gaugeBattTempAngle" format="float" />
+        <attr name="gaugeLoadAngle" format="float" />
+        <attr name="gaugeSpeedWidth" format="float" />
+        <attr name="gaugeBattTempLoadWidth" format="float" />
+        <attr name="gaugeSpeedMargin" format="float" />
+        <attr name="gaugeBattTempLoadMargin" format="float" />
+        <attr name="tickSpeedLength" format="float" />
+        <attr name="tickBattTempLoadLength" format="float" />
+        <attr name="tickSpeedWidth" format="float" />
+        <attr name="tickBattTempLoadWidth" format="float" />
+        <attr name="tickSpeedMargin" format="float" />
+        <attr name="tickBattTempLoadMargin" format="float" />
+        <attr name="subtickSpeedLength" format="float" />
+        <attr name="subtickBattTempLoadLength" format="float" />
+        <attr name="subtickSpeedWidth" format="float" />
+        <attr name="subtickBattTempLoadWidth" format="float" />
+        <attr name="textDistanceHeight" format="float" />
+        <attr name="textSpeedHeight" format="float" />
+        <attr name="textTitleHeight" format="float" />
+        <attr name="textValueHeight" format="float" />
+        <attr name="textSpeedUnitHeight" format="float" />
+        <attr name="textBattTempHeight" format="float" />
+        <attr name="textTapActionHeight" format="float" />
+        <attr name="textDistanceY" format="float" />
+        <attr name="textSpeedY" format="float" />
+        <attr name="textSpeedUnitY" format="float" />
+        <attr name="textBattTempX" format="float" />
+        <attr name="textBattTempY" format="float" />
+        <attr name="textTapActionY" format="float" />
+        <attr name="infoMarginTopPortrait" format="float" />
+        <attr name="infoCellMargin" format="float" />
+        <attr name="infoCellTitleValueMargin" format="float" />
+        <attr name="infoTitleToValueHeightMaxRatio" format="float" />
+        <attr name="gaugeMarginTopLandscape" format="float" />
+        <attr name="gaugeMarginTopPortrait" format="float" />
+        <attr name="drawableTapActionHeight" format="float" />
+        <attr name="drawableTapActionY" format="float" />
+        <attr name="iconsY" format="float" />
+        <attr name="iconsBatteryX" format="float" />
+        <attr name="iconsBatteryY" format="float" />
+        <attr name="iconsHeight" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="StatusBar" parent="AbstractView">
+        <attr name="disconnectedColor" format="color" />
+        <attr name="disconnectedBackgroundColor" format="color" />
+        <attr name="connectedColor" format="color" />
+        <attr name="connectedBackgroundColor" format="color" />
+        <attr name="gpsColor" format="color" />
+        <attr name="gpsBackgroundColor" format="color" />
+        <attr name="warningBackgroundColor" format="color" />
+        <attr name="alarmBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ValueView" parent="AbstractView">
+        <attr name="valueColor" format="color" />
+        <attr name="valueColorInvalid" format="color" />
+        <attr name="columnRatio" format="float" />
+        <attr name="titleValueHeightRatio" format="float" />
+        <attr name="titleValueMargin" format="dimension" />
+        <attr name="vertical" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

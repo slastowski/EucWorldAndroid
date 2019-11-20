@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:key="@string/alarms_enabled"
+        android:title="@string/alarms_enabled_title"
+        android:summary="@string/alarms_enabled_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/disable_phone_vibrate"
+        android:dependency="@string/alarms_enabled"
+        android:title="@string/disable_phone_vibrate_title"
+        android:summary="@string/disable_phone_vibrate_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/alarm_voltage"
+        android:title="@string/alarm_voltage_title"
+        android:summary="@string/alarm_voltage_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/voltage_dependent_alarms"
+        android:dependency="@string/alarms_enabled"
+        android:title="@string/voltage_dependent_alarm_title"
+        android:summary="@string/voltage_dependent_alarm_summary" />
+
+    <PreferenceCategory
+        android:title="@string/speed_alarm_1_title">
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_1_speed"
+            android:title="@string/alarm_1_speed_title"
+            android:summary="@string/alarm_1_speed_summary"
+            android:defaultValue="30"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_type="speed"
+            sample:msbp_measurementUnit="km/h"
+            sample:msbp_measurementUnitImperial="mph"
+            sample:msbp_dialogEnabled="true"/>
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_1_battery"
+            android:title="@string/alarm_1_battery_title"
+            android:summary="@string/alarm_1_battery_summary"
+            android:defaultValue="100"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="%"
+            sample:msbp_dialogEnabled="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/speed_alarm_2_title">
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_2_speed"
+            android:title="@string/alarm_2_speed_title"
+            android:summary="@string/alarm_2_speed_summary"
+            android:defaultValue="0"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_type="speed"
+            sample:msbp_measurementUnit="km/h"
+            sample:msbp_measurementUnitImperial="mph"
+            sample:msbp_dialogEnabled="true"/>
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_2_battery"
+            android:title="@string/alarm_2_battery_title"
+            android:summary="@string/alarm_2_battery_summary"
+            android:defaultValue="0"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="%"
+            sample:msbp_dialogEnabled="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/speed_alarm_3_title">
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_3_speed"
+            android:title="@string/alarm_3_speed_title"
+            android:summary="@string/alarm_3_speed_summary"
+            android:defaultValue="100"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_type="speed"
+            sample:msbp_measurementUnit="km/h"
+            sample:msbp_measurementUnitImperial="mph"
+            sample:msbp_dialogEnabled="true"/>
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_3_battery"
+            android:title="@string/alarm_3_battery_title"
+            android:summary="@string/alarm_3_battery_summary"
+            android:defaultValue="0"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="%"
+            sample:msbp_dialogEnabled="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/current_alarm_title">
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_current"
+            android:title="@string/alarm_current_title"
+            android:summary="@string/alarm_current_summary"
+            android:defaultValue="0"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="150"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="A"
+            sample:msbp_dialogEnabled="true"/>
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_current_sustained"
+            android:title="@string/alarm_current_sustained_title"
+            android:summary="@string/alarm_current_sustained_summary"
+            android:defaultValue="0"
+            sample:msbp_minValue="0"
+            sample:msbp_maxValue="150"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="A"
+            sample:msbp_dialogEnabled="true"/>
+
+    </PreferenceCategory>
+
+	<PreferenceCategory
+        android:title="@string/temperature_alarm_title">
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="@string/alarm_temperature"
+            android:title="@string/alarm_temperature_title"
+            android:summary="@string/alarm_temperature_summary"
+            android:defaultValue="60"
+            sample:msbp_minValue="20"
+            sample:msbp_maxValue="80"
+            sample:msbp_interval="1"
+            sample:msbp_type="temperature"
+            sample:msbp_measurementUnit="°C"
+            sample:msbp_measurementUnitImperial="°F"
+            sample:msbp_dialogEnabled="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

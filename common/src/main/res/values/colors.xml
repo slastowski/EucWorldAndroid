@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gps_icon">#ff003db0</color>
+    <color name="euc_icon">#ff008020</color>
+    <color name="disabled">#ff404040</color>
+    <color name="battery">#ff008020</color>
+    <color name="battery_empty">#ffc05000</color>
+</resources>

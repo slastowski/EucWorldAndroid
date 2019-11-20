@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="notification_icon_bg">#3333B5E5</drawable>
+    <color name="gps">#001b33</color>
+    <color name="logo">#005930</color>
+    <color name="primary">#00331b</color>
+    <color name="primary_dark">#001a0f</color>
+    <color name="primary_light">#96ffd3</color>
+    <color name="accent">#008D4C</color>
+    <color name="accent_semitransparent">#22005930</color>
+    <color name="primary_text">#ffffff</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="icons_down">#999999</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="disabled">#404040</color>
+    <color name="background">#000000</color>
+    <color name="background_dialog">#202020</color>
+    <color name="background_header">#000000</color>
+    <color name="navigation_bar">#005930</color>
+    <color name="alarm">#ff0000</color>
+    <color name="speed">#FF5722</color>
+    <color name="current">#cccc00</color>
+</resources>

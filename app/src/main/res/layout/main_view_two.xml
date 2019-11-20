@@ -1,0 +1,234 @@
+<LinearLayout android:id="@+id/page_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                style="@style/Header"
+                android:text="@string/livedata_header" />
+
+            <TextView
+                style="@style/Unavailable"
+                android:id="@+id/livedataUnavailable"
+                android:text="@string/livedata_not_available_yet" />
+
+            <net.lastowski.common.view.ValueView
+                android:id="@+id/livedataSpeed"
+                android:visibility="gone"
+                style="@style/Values" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataBatteryLevel"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataTemperature"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataTemperatureMotor"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataDuration"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataDurationRiding"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataDistance"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataDistanceVehicle"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataDistanceUser"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataDistanceTotal"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataVoltage"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataCurrent"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataPower"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataTilt"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataRoll"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataCoolingFanStatus"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataControlSensitivity"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataName"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataModel"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataFirmwareVersion"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/livedataSerialNumber"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/Header"
+                android:layout_width="match_parent"
+                android:text="@string/stats_header" />
+
+            <TextView
+                style="@style/Unavailable"
+                android:id="@+id/statsUnavailable"
+                android:text="@string/stats_not_available_yet" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsSpeedAvg"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsSpeedAvgRiding"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsSpeedMax"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsLoadMaxRegen"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsLoadMax"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsTemperatureMin"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsTemperatureMax"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsBatteryLevelMin"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsBatteryLevelMax"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsVoltageMin"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsVoltageMax"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsCurrentMin"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsCurrentAvg"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsCurrentMax"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsPowerMin"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsPowerAvg"
+                android:visibility="gone" />
+
+            <net.lastowski.common.view.ValueView
+                style="@style/Values"
+                android:id="@+id/statsPowerMax"
+                android:visibility="gone" />
+
+            <View
+                android:layout_height="20pt"
+                android:layout_width="match_parent"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

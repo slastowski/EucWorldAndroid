@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:key="@string/lang"
+        android:title="@string/lang_title"
+        android:defaultValue="default"
+        android:entries="@array/lang"
+        android:entryValues="@array/lang_values" />
+
+    <CheckBoxPreference
+        android:key="@string/show_when_locked"
+        android:title="@string/show_when_locked_title"
+        android:summary="@string/show_when_locked_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/enable_pip"
+        android:title="@string/enable_pip_title"
+        android:summary="@string/enable_pip_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/use_mi"
+        android:title="@string/use_mi_title"
+        android:summary="@string/use_mi_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/use_ft"
+        android:title="@string/use_ft_title"
+        android:summary="@string/use_ft_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/use_f"
+        android:title="@string/use_f_title"
+        android:summary="@string/use_f_summary" />
+
+    <CheckBoxPreference
+        android:key="@string/dont_reset_data"
+        android:title="@string/dont_reset_data_title"
+        android:summary="@string/dont_reset_data_summary" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/optimized_battery_level"
+        android:title="@string/optimized_battery_level_title"
+        android:summary="@string/optimized_battery_level_summary" />
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="@string/speed_correction"
+        android:title="@string/speed_correction_title"
+        android:defaultValue="0"
+        sample:msbp_minValue="-20"
+        sample:msbp_maxValue="20"
+        sample:msbp_interval="1"
+        sample:msbp_measurementUnit="%"
+        sample:msbp_dialogEnabled="true"/>
+
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="@string/dist_correction"
+        android:title="@string/dist_correction_title"
+        android:defaultValue="0"
+        sample:msbp_minValue="-20"
+        sample:msbp_maxValue="20"
+        sample:msbp_interval="1"
+        sample:msbp_measurementUnit="%"
+        sample:msbp_dialogEnabled="true"/>
+
+    <Preference
+        android:key="@string/reset_top_speed"
+        android:enabled="true"
+        android:title="@string/reset_top_speed_title" />
+
+    <Preference
+        android:key="@string/reset_user_distance"
+        android:enabled="true"
+        android:title="@string/reset_user_distance_title" />
+
+    <Preference
+        android:key="@string/last_mac"
+        android:enabled="true"
+        android:title="@string/last_mac_title" />
+
+</PreferenceScreen>

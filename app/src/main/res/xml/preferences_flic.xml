@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="@string/flic_button_setup"
+        android:title="@string/flic_button_setup_title" />
+
+    <ListPreference
+        android:key="@string/flic_action_single"
+        android:title="@string/action_single_title"
+        android:defaultValue="0"
+        android:entries="@array/action"
+        android:entryValues="@array/action_values" />
+
+    <ListPreference
+        android:key="@string/flic_action_double"
+        android:title="@string/action_double_title"
+        android:defaultValue="0"
+        android:entries="@array/action"
+        android:entryValues="@array/action_values" />
+
+    <ListPreference
+        android:key="@string/flic_action_hold"
+        android:title="@string/action_hold_title"
+        android:defaultValue="0"
+        android:entries="@array/action"
+        android:entryValues="@array/action_values" />
+
+    <ListPreference
+        android:key="@string/flic_horn_mode"
+        android:title="@string/horn_mode_title"
+        android:defaultValue="0"
+        android:entries="@array/horn_mode"
+        android:entryValues="@array/horn_mode_values" />
+
+    <CheckBoxPreference
+        android:key="@string/flic_use_custom_horn_sound"
+        android:title="@string/use_custom_horn_sound_title"
+        android:summary="@string/use_custom_horn_sound_summary" />
+
+    <Preference
+        android:dependency="flic_use_custom_horn_sound"
+        android:key="@string/flic_custom_horn_sound"
+        android:title="@string/horn_custom_sound_title" />
+
+</PreferenceScreen>

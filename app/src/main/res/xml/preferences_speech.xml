@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:key="@string/speech_enable_on_startup"
+        android:title="@string/speech_enable_on_startup_title" />
+
+	<ListPreference
+		android:key="@string/speech_rate"
+		android:title="@string/speech_rate_title"
+		android:defaultValue="1"
+		android:entries="@array/speech_rate"
+		android:entryValues="@array/speech_rate_values" />
+
+	<ListPreference
+		android:key="@string/speech_pitch"
+		android:title="@string/speech_pitch_title"
+		android:defaultValue="1"
+		android:entries="@array/speech_pitch"
+		android:entryValues="@array/speech_pitch_values" />
+
+	<ListPreference
+		android:key="@string/speech_msg_mode"
+		android:title="@string/speech_msg_mode_title"
+		android:defaultValue="0"
+		android:entries="@array/speech_mode"
+		android:entryValues="@array/speech_mode_values" />
+
+    <ListPreference
+        android:key="@string/speech_msg_interval"
+        android:title="@string/speech_msg_interval_title"
+        android:defaultValue="60"
+        android:entries="@array/speech_interval"
+        android:entryValues="@array/speech_interval_values" />
+
+	<ListPreference
+		android:key="@string/speech_focus"
+		android:title="@string/speech_focus_title"
+		android:defaultValue="1"
+		android:entries="@array/speech_focus"
+		android:entryValues="@array/speech_focus_values" />
+
+	<Preference
+		android:key="@string/speech_messages_preferences"
+		android:title="@string/speech_messages_preferences_title" />
+
+	<CheckBoxPreference
+		android:defaultValue="1"
+		android:key="@string/speech_only_when_moving"
+		android:title="@string/speech_only_when_moving_title" />
+
+	<CheckBoxPreference
+		android:key="@string/speech_use_a2dp_only"
+		android:title="@string/speech_use_a2dp_only_title" />
+
+	<CheckBoxPreference
+		android:defaultValue="1"
+		android:key="@string/speech_gps_bt_status"
+		android:title="@string/speech_gps_bt_status_title" />
+
+
+</PreferenceScreen>

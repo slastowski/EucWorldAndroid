@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wheel_types">
+        <item>@string/inmotion</item>
+        <item>@string/ninebot</item>
+        <item>@string/ninebot_z</item>
+        <item>@string/gotway</item>
+        <item>@string/kingsong</item>
+    </string-array>
+
+    <string name="kingsong" translatable="false">kingsong</string>
+    <string name="gotway" translatable="false">gotway</string>
+    <string name="ninebot" translatable="false">ninebot</string>
+    <string name="ninebot_z" translatable="false">ninebot_z</string>
+    <string name="inmotion" translatable="false">inmotion</string>
+</resources>
