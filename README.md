@@ -21,3 +21,5 @@ https://github.com/JumpMaster/WheelLogPebble
 
 Flic library:
 https://github.com/50ButtonsEach/fliclib-android
+
+This project contains some works created using Font Awesome Free icons: https://fontawesome.com/license/free
