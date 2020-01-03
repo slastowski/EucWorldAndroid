@@ -1,1 +1,2 @@
-include ':app', ':fliclib', ':wear', ':common', ':seekbarpreference'
+include ':app', ':common', ':seekbarpreference', ':fliclib'
+project(':fliclib').projectDir = new File('fliclib-android/fliclib')

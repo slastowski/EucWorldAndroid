@@ -1,0 +1,3 @@
+[submodule "fliclib-android"]
+	path = fliclib-android
+	url = https://github.com/50ButtonsEach/fliclib-android.git

@@ -23,3 +23,13 @@ Flic library:
 https://github.com/50ButtonsEach/fliclib-android
 
 This project contains some works created using Font Awesome Free icons: https://fontawesome.com/license/free
+
+In order to compile this project, after cloning you will need to initialise the 'fliclib' submodule with:
+'git submodule init'
+
+Then update with:
+'git submodule update'
+
+For more details regarding git submoduels refer to: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
+Once this code has been imported you will need to convert 'fliclib' to AndroidX. In Android Studio this can be done by clicking 'Refactor' from the menu bar and selecting 'Migrate to AndroidX...'
